@@ -26,6 +26,7 @@ public class SearchServlet extends HttpServlet {
         } catch (TwitchException e) {
             throw new ServletException(e);
         }
+
     }
 
 }

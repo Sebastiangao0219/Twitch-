@@ -10,7 +10,7 @@ public class MySQLDBUtil {
     //RDS port
     private static final String PORT_NUM = "3306";
 
-    private static final String DB_NAME = "laiproject-database";
+    private static final String DB_NAME = "jupiter";
     public static String getMySQLAddress() throws IOException {
         Properties prop = new Properties();
         String propFileName = "config.properties";

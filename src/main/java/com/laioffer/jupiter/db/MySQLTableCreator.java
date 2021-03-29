@@ -9,7 +9,7 @@ public class MySQLTableCreator {
         try {
 
             // Step 1 Connect to MySQL.
-            System.out.println("Connecting to " + MySQLDBUtil.getMySQLAddress());
+            //System.out.println("Connecting to " + MySQLDBUtil.getMySQLAddress());
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             Connection conn = DriverManager.getConnection(MySQLDBUtil.getMySQLAddress());
 

@@ -68,6 +68,7 @@ public class MySQLTableCreator {
             System.out.println("Import Successful.");
         } catch (Exception ex) {
             // handle the error
+            ex.printStackTrace();
         }
     }
 }
